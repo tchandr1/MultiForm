@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+
+
+
+<div class="container">
+    <p> Enter Username and Password </p>
+<form action="#" class="form-horizontal" method="post">
+    <P>
+        <LABEL for="firstname">Username </LABEL>
+        <INPUT type="text" id="Username"><BR>
+        <LABEL for="lastname">Password </LABEL>
+        <INPUT type="text" id="Password"><BR>
+        <INPUT class="btn btn-primary" type="submit" value="SUBMIT" onclick="check(this.form)" > <INPUT type="RESET">
+    </P>
+</form>
+
+    <script language="javascript">
+        function check(form) { /*function to check userid & password*/
+            /*the following code checkes whether the entered userid and password are matching*/
+            if(form.Username.value == "Thanu" && form.Password.value == "Thanu") {
+                window.open('firstPage.html')/*opens the target page while Id & password matches*/
+            }
+            else {
+                alert("Error Password or Username")/*displays error message*/
+            }
+        }
+    </script>
+    </div>
+
+
+
+
+<script type="text/javascript" src="jquery-1.8.3.js"></script>
+<script src="js/formFunction.js"></script>
+</body>
+</html>
