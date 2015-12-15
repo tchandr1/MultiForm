@@ -1,0 +1,14 @@
+
+
+
+.small-tool{
+    position: absolute;
+    visibility: visible;
+    padding: 10px;
+    background-color: white;
+    min-width: 400px;
+    max-width: 200px;
+    min-height: 100px;
+    border-radius: 3px;
+    box-shadow: 0 1px 10px rgba(0,0,0,.4);
+    }
